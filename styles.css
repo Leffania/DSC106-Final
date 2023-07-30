@@ -170,3 +170,7 @@ div.matrix_tooltip {
     text-anchor: middle;
     font-size: medium;
 }
+
+body#note {
+    font-size: small;
+}
