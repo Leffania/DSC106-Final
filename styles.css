@@ -1,0 +1,170 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.choropleth_tooltip {
+    position: absolute;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background: white;
+    stroke: black;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.choropleth_title {
+    text-anchor: middle;
+    font-size: large;
+}
+
+.choropleth_legend_text {
+    text-anchor: middle;
+    font-size: small;
+}
+
+.choropleth_legend_title {
+    font-size: small;
+}
+
+div.stacked_bar_chart_tooltip {
+    position: absolute;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background: white;
+    stroke: black;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.stacked_bar_chart_bar {
+    stroke: black;
+}
+
+.stacked_bar_chart_title {
+    text-anchor: middle;
+    font-size: large;
+}
+
+.stacked_bar_chart_yAxisLabel {
+    font-size: medium;
+}
+
+.stacked_bar_chart_xAxisLabel {
+    text-anchor: middle;
+    font-size: medium;
+}
+
+.stacked_bar_chart_legend_colors {
+    stroke: black;
+}
+
+.stacked_bar_chart_legend_text {
+    text-anchor: start;
+}
+
+div.scatter_tooltip {
+    position: absolute;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background: white;
+    stroke: black;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.scatter_plot_points {
+    fill: cyan;
+    fill-opacity: 0.5;
+    stroke: black;
+}
+
+.scatter_plot_title {
+    text-anchor: middle;
+    font-size: large;
+}
+
+.scatter_plot_line {
+    stroke: magenta;
+    stroke-width: 2px;
+}
+
+.scatter_plot_yAxisLabel {
+    font-size: medium;
+}
+
+.scatter_plot_xAxisLabel {
+    text-anchor: middle;
+    font-size: medium;
+}
+
+div.histogram_tooltip {
+    position: absolute;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background: white;
+    stroke: black;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.histogram_bars {
+    fill: royalblue;
+    stroke: black;
+}
+
+.histogram_title {
+    text-anchor: middle;
+    font-size: large;
+}
+
+.histogram_yAxisLabel {
+    font-size: medium;
+}
+
+.histogram_xAxisLabel {
+    text-anchor: middle;
+    font-size: medium;
+}
+
+div.matrix_tooltip {
+    position: absolute;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background: white;
+    stroke: black;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.matrix_title {
+    text-anchor: middle;
+    font-size: large;
+}
+
+.matrix_yAxisLabel {
+    font-size: medium;
+}
+
+.matrix_xAxisLabel {
+    text-anchor: middle;
+    font-size: medium;
+}
+
+.stream_title {
+    text-anchor: middle;
+    font-size: large;
+}
+
+.stream_yAxisLabel {
+    font-size: medium;
+}
+
+.stream_xAxisLabel {
+    text-anchor: middle;
+    font-size: medium;
+}
