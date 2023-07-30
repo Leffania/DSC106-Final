@@ -9,6 +9,8 @@ This repository includes HTML, CSS, and JavaScript code to query and plot a vari
 
 `d3.js`: third party package used for processing data
 
+`example_output.pdf`: example PDF output for the full webpage
+
 `index.html`: HTML code to display the webpage
 
 `styles.css`: additional HTML formatting
