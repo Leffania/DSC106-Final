@@ -11,79 +11,48 @@
     
     
     <div>
-    <h2 class="section">PART A</h2>
+    <h2 class="title">Visual Summary for Flights Within the U.S.</h2>
     
     
     <div>
-    <h3>Choropleth:</h3>
-    <h4>Identify states that lie within the extremes of frequency of canceled and delayed
-        flights (states that have few to none canceled or delayed flights and those with
-        numerous canceled or delayed flights):</h4>
-    <div id="choropleth_answer"> 
-        The reason we chose our color scheme is because our cancelled / delayed flights are sequential in grouping so we chose to use luminence.
-         The marks and channels on the graph are lines to draw the states, position to distinguish between states, and color to show value.
-    </div> <br>
-        <div id="radio_choropleth" class="center_plot">
-            <input type="radio" id="choropleth_scheme1" name="color" value="1" checked="checked">
-            <label for="Color Scheme 1">Blue Color Scheme</label>
-            <input type="radio" id="choropleth_scheme2" name="color" value="2">
-            <label for="Color Scheme 2">Red Color Scheme</label>
-            <input type="radio" id="choropleth_scheme3" name="color" value="3">
-            <label for="Color Scheme 3">Green Color Scheme</label>
-            <input type="radio" id="choropleth_scheme4" name="color" value="4">
-            <label for="Color Scheme 4">Orange Color Scheme</label>
-            <input type="radio" id="choropleth_scheme5" name="color" value="5">
-            <label for="Color Scheme 5">Purple Color Scheme</label><br>
-        </div>
+    <div id="radio_choropleth" class="center_plot">
+        <input type="radio" id="choropleth_scheme1" name="color" value="1" checked="checked">
+        <label for="Color Scheme 1">Blue Color Scheme</label>
+        <input type="radio" id="choropleth_scheme2" name="color" value="2">
+        <label for="Color Scheme 2">Red Color Scheme</label>
+        <input type="radio" id="choropleth_scheme3" name="color" value="3">
+        <label for="Color Scheme 3">Green Color Scheme</label>
+        <input type="radio" id="choropleth_scheme4" name="color" value="4">
+        <label for="Color Scheme 4">Orange Color Scheme</label>
+        <input type="radio" id="choropleth_scheme5" name="color" value="5">
+        <label for="Color Scheme 5">Purple Color Scheme</label><br>
+    </div>
     <div id="choropleth">
         </div>
-        <h4>Plot:</h4>
         <div id="choropleth_plot" class="center_plot">
         </div>
     </div>    
     </div>
         
     <div>
-    <h3>Stacked Bar Chart:</h3>
     <div id="stacked_bar_chart">
-    
         </div>
-        <h4>Compare the similarities between airlines on how often they are on-time / early,
-            cancelled, or delayed:</h4>
-        <div id="stacked_bar_answer"> 
-        The reason we chose our color scheme because our stacked bar chart has three different categories for being
-         prompt, delayed, or cancelled so we chose 3 different hues.
-          There is also some degree of ordering so the hues we chose to use green, yellow, red, which represent go, slow, stopped.
-           The marks and channels on the graph are lines to draw the bars, position to position the lines to represent the flights, and color to distinguish flight type.
-        </div> <br>
         <div id="stacked_bar_chart_plot" class="center_plot">
         </div>
     </div>    
     
     <div>
-    <h3>Scatter Plot:</h3>
     <div id="scatter_plot">
-        
-        <h4>Discover the correlation between departure delay and arrival delay:</h4>
-        <h5>Press the [Enter] key to toggle the line of regression.</h5>
-        <div id="scatter_plot_answer"> 
-        We choose to outline our points and lower opacity so that we could visualize the stacks of points.
-          The magenta line also contrasts the cyan points.
-           The marks and channels on the graph are line to draw the regression line, points to plot the scatter points,
-            position to position the line and points, and color for style.
-        </div> <br>
     </div>
         <div id="scatter_plot_plot" class="center_plot">
         </div>
     </div>    
        
     <div>
-    <h3>Histogram:</h3>
     
     <div id="histogram">
         
-        <h4>Present a distribution of expected proportion of canceled or delayed flights for a
-            given airline while doing an A/B test to determine if the airline has an impact on
+        <h4>A/B test to determine if the airline has an impact on
             whether or not a flight will be cancelled or delayed:</h4>
         <h5>Null Hypothesis: The proportion of cancelled / delayed flights for Southwest Airlines is about the same as that of other airlines. </br>
             Alternative Hypothesis: The proportion of cancelled / delayed flights for Southwest Airlines is greater than that of other airlines. </br>
@@ -92,44 +61,23 @@
             Reject Null Hypothesis: <a id = "histogram_conclusion"> </a> 
         </h5>
         </div>
-        <div id="histogram_answer"> 
-        We choose to color our bars blue so that it would contrast with the red dot representing our observed proprtion.
-          The marks and channels on the graph are line to draw the bars, points to plot the observed proportion, and position to position the line and points.
-        </div> <br>
         <div id="histogram_plot" class="center_plot">
         </div>
     </div>    
     
     <div>
-    <h3>Adjacency Matrix:</h3>
     
     <div id="matrix">
     
-        </div>
-        <h4>Derive the paths for flights from city to city that have been cancelled:</h4>
-        <div id="matrix_answer"> 
-        The reason we chose this color scheme in this graph because our value is binary in an adjaceny list so we decided to choose different hues,
-         red and green which are complementary colors. Gray is used to represent the diagonal of nulls.
-          The marks and channels on the graph are lines to draw the squares, position to position the squares,
-           and color to represent the value of the adjacency matrix view.
         </div>
         <div id="matrix_plot" class="center_plot">
         </div>
     </div>    
     
     <div>
-    <h3>Stream Graph:</h3>
     
     <div id="stream">
     
-        </div>
-        
-        <h4>Identify trends in flights during each month for West Coast states:</h4>
-        <div id="matrix_answer"> 
-        The reason we chose this color scheme in this graph because our groups are states which are categorical so we decided to choose different hues,
-         blue, orange, and green. The marks and channels on the graph are areas to represent the number of flights, position to position the areas
-          for each month, and color to represent each West Coast state. </br>
-        Note: the flights dataset has no flights departing from the West Coast in October, so month 10 is omitted from the stream graph.
         </div>
         <div id="stream_plot" class="center_plot">
         </div>

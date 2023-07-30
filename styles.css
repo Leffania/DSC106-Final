@@ -1,5 +1,7 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: center;
 }
 
 div.choropleth_tooltip {
