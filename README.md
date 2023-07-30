@@ -1,5 +1,5 @@
 # Visual Summary for Flights Within the U.S.
-*By: Justin Nguyen and Garrick Su*
+By Justin Nguyen and Garrick Su
 
 This repository includes HTML, CSS, and JavaScript code to query and plot a variety of data visualizations based on flights data collected within the U.S. The result is a webpage with colored and interactive plots showcasing interesting insights about the data (e.g., frequency of cancelled or delayed flights by state).
 
